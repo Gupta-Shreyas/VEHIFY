@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Official Scanner - TETHER</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+<title>Vehify - Official Scanner</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 
-<body>
+<body class="scanner-page">
+
+<div class="scanner-container">
+
+<h1 class="vehify-title">VEHIFY</h1>
+<h2>Official Verification Panel</h2>
 
 <div class="card">
-  <h3>Officer Verification</h3>
-  <input id="officerId" placeholder="Enter Officer ID"/>
+
+<h3>Officer Verification</h3>
+<input id="officerId" placeholder="Enter Officer ID">
+
 </div>
 
-<div class="container">
-  <h1>TETHER</h1>
-  <h2>Official Verification Panel</h2>
+<button class="primary" onclick="scanVehicle()">
+SCAN VEHICLE
+</button>
 
-  <button class="primary" onclick="scanVehicle()">
-    SCAN VEHICLE
-  </button>
+<div id="resultArea"></div>
 
-  <!-- Result appears here -->
-  <div id="resultArea"></div>
-  <a href="history.html">
-    <button>View Full Vehicle History</button>
-  </a>
-  <br>
-  <a href="history.html"><button>View Vehicle History</button></a>
-  <a href="index.html"><button>Back Home</button></a>
+<a href="history.html"><button>View Vehicle History</button></a>
+<a href="index.html"><button>Back Home</button></a>
 
 </div>
 
@@ -37,4 +40,5 @@
 <script src="js/scanner.js"></script>
 
 </body>
+
 </html>

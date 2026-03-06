@@ -1,28 +1,129 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  
-  <title>Vehicle History - TETHER</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+<title>Vehify - Vehicle History</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-<div class="container">
-  <h1>TETHER</h1>
-  <h2>Vehicle History</h2>
-  <p>Immutable Verification Records</p>
+<!-- FLOATING LIGHTS -->
+<div class="light light1"></div>
+<div class="light light2"></div>
+<div class="light light3"></div>
 
-  <div id="historyList"></div>
+<!-- SKY -->
+<div class="sky-layer"></div>
 
-  <br>
-  <a href="index.html"><button>Back Home</button></a>
+<!-- CLOUDS -->
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+<div class="cloud cloud3"></div>
+
+<!-- CITY -->
+<div class="city"></div>
+
+<!-- TRAFFIC LIGHT -->
+<div class="traffic-light">
+<div class="light red"></div>
+<div class="light yellow"></div>
+<div class="light green"></div>
+</div>
+
+<!-- RADAR -->
+<div class="radar-container">
+
+<div class="radar">
+
+<div class="radar-ring ring1"></div>
+<div class="radar-ring ring2"></div>
+<div class="radar-ring ring3"></div>
+
+<div class="radar-line"></div>
+
+<div class="radar-dot dot1"></div>
+<div class="radar-dot dot2"></div>
+<div class="radar-dot dot3"></div>
 
 </div>
 
-<script src="js/data.js"></script>
+</div>
+
+<!-- ROAD -->
+<div class="road-wrapper">
+
+<!-- TREES -->
+<div class="tree tree1"></div>
+<div class="tree tree2"></div>
+<div class="tree tree3"></div>
+<div class="tree tree4"></div>
+
+<!-- CARS -->
+<div class="car car1">🚗</div>
+<div class="car car2">🚙</div>
+<div class="car car3">🚕</div>
+
+<div class="road"></div>
+
+</div>
+
+
+<!-- MAIN CONTENT -->
+<div class="hero-container">
+
+<div class="glass-panel">
+
+<h1 class="neon-title">VEHIFY</h1>
+
+<h2>Vehicle Scan History</h2>
+
+<div class="card">
+
+<p>
+All scans of the vehicle are permanently stored here.
+This history cannot be deleted by the owner and ensures
+transparency for authorities and users.
+</p>
+
+</div>
+
+
+<!-- HISTORY LIST -->
+<div class="card">
+
+<h3>Scan Records</h3>
+
+<ul id="historyList" style="text-align:left; padding-left:20px;"></ul>
+
+</div>
+
+
+<!-- NAVIGATION -->
+
+<a href="index.html">
+<button>Home</button>
+</a>
+
+<a href="owner.html">
+<button>Owner Dashboard</button>
+</a>
+
+<a href="scanner.html">
+<button>Official Scanner</button>
+</a>
+
+</div>
+
+</div>
+
+
 <script src="js/history.js"></script>
 
 </body>
+
 </html>

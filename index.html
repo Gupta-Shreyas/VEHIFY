@@ -1,45 +1,168 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>TETHER</title>
+<title>VEHIFY</title>
 
-  <!-- Modern Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
 
-  <!-- Main Styles -->
-  <link rel="stylesheet" href="css/style.css">
+<!-- Styles -->
+<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-  <div class="container">
+<!-- FLOATING GRADIENT LIGHTS -->
+<div class="light light1"></div>
+<div class="light light2"></div>
+<div class="light light3"></div>
 
-    <!-- Branding -->
-    <h1>TETHER</h1>
-    <p>Transparent Vehicle Identity & Verification System</p>
 
-    <!-- Intro Card -->
-    <div class="card">
-      <p>
-        Smart digital verification platform enabling instant vehicle authorization,
-        compliance monitoring, and immutable verification history.
-      </p>
-    </div>
+<!-- SKY -->
+<div class="sky-layer"></div>
 
-    <!-- Navigation Buttons -->
-    <a href="owner.html">
-      <button class="primary">Owner Dashboard</button>
-    </a>
+<!-- CLOUDS -->
+<div class="cloud cloud1"></div>
+<div class="cloud cloud2"></div>
+<div class="cloud cloud3"></div>
 
-    <a href="scanner.html">
-      <button class="primary">Official Scanner</button>
-    </a>
 
-    <a href="history.html">
-      <button class="primary">Vehicle History</button>
-    </a>
+<!-- CITY SKYLINE -->
+<div class="city"></div>
 
+
+<!-- TRAFFIC LIGHT -->
+<div class="traffic-light">
+
+  <div class="pole"></div>
+
+  <div class="light-box">
+    <div class="light red"></div>
+    <div class="light yellow"></div>
+    <div class="light green"></div>
   </div>
 
+</div>
+
+
+<!-- RADAR -->
+<div class="radar-container">
+
+<div class="radar">
+
+<div class="radar-ring ring1"></div>
+<div class="radar-ring ring2"></div>
+<div class="radar-ring ring3"></div>
+
+<div class="radar-line"></div>
+
+<div class="radar-dot dot1"></div>
+<div class="radar-dot dot2"></div>
+<div class="radar-dot dot3"></div>
+
+</div>
+
+</div>
+
+
+<!-- ROAD + TREES + CARS -->
+<div class="road-wrapper">
+
+<!-- TREES -->
+<div class="tree tree1"></div>
+<div class="tree tree2"></div>
+<div class="tree tree3"></div>
+<div class="tree tree4"></div>
+<div class="tree tree5"></div>
+
+<!-- CARS -->
+<div class="car car1">
+🚗
+<div class="verify-light"></div>
+</div>
+
+<div class="car car2">
+🚙
+<div class="verify-light"></div>
+</div>
+
+<div class="car car3">
+🚕
+<div class="verify-light"></div>
+</div>
+
+<!-- QR SCAN AREA -->
+<div class="scan-area">
+<div class="scan-line"></div>
+</div>
+
+<!-- ROAD -->
+<div class="road"></div>
+
+</div>
+
+
+<!-- MAIN CONTENT -->
+<div class="hero-container">
+
+<div class="glass-panel">
+
+<h1 class="neon-title">VEHIFY</h1>
+
+<p class="tagline">
+Transparent Vehicle Identity & Verification System
+</p>
+
+<div class="card">
+
+<p>
+Smart digital verification platform enabling instant vehicle authorization,
+compliance monitoring, and immutable verification history.
+</p>
+
+</div>
+
+
+<!-- LIVE COUNTER -->
+<div class="stats">
+
+<div class="stat-box">
+
+<span id="vehicleCounter">1284</span>
+
+<p>Vehicles Verified Today</p>
+
+</div>
+
+</div>
+
+
+<!-- NAVIGATION BUTTONS -->
+
+<a href="owner.html">
+<button class="primary">Owner Dashboard</button>
+</a>
+
+<a href="scanner.html">
+<button class="primary">Official Scanner</button>
+</a>
+
+<a href="history.html">
+<button class="primary">Vehicle History</button>
+</a>
+
+</div>
+
+</div>
+
+
+<!-- SCRIPTS -->
+
+<script src="js/parallax.js"></script>
+<script src="js/counter.js"></script>
+
 </body>
+
 </html>
